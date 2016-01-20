@@ -1,4 +1,4 @@
-FROM develar/java
+FROM frolvlad/alpine-oraclejdk8
 
 RUN apk --update add ca-certificates curl jq tar bash docker openssh && \
 	mkdir -p /opt && \
